@@ -1,0 +1,6 @@
+main.container.mx-auto {
+    margin-top: 25px;
+}
+h1.font-mono.text-2xl.text-center.text-teal-700.truncate {
+    margin-bottom: 25px;
+}
