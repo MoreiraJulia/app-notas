@@ -16,6 +16,8 @@
     "autoprefixer": "^10.4.7",
     "cordova-android": "^10.1.2",
     "cordova-plugin-splashscreen": "^6.0.1",
+    "cordova-plugin-statusbar": "^3.0.0",
+    "cordova-plugin-vibration": "^3.1.1",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.1"
   },
@@ -24,7 +26,9 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-splashscreen": {}
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-statusbar": {}
     }
   },
   "dependencies": {

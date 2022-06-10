@@ -7,3 +7,8 @@ function SalvarAnotacao(){
 document.getElementById("botao-salvar").addEventListener("click", function(){
     SalvarAnotacao()
 })
+
+document.getElementById("botao-salvar").addEventListener("click",function(){
+    SalvarAnotacao()
+    navigator.vibrate(3000);
+})
